@@ -13,12 +13,15 @@ FormComponent = React.createClass
       <div className="col-xs-2">
         <label>{this.props.name}</label>
       </div>
-      <div className="col-xs-8">
+      <div className="col-xs-5">
         <input type="text"
              className="form-input"
              onChange={this.onChange}
              onBlur={this.onBlur}
              onFocus={this.onFocus}></input>
+      </div>
+      <div className="col-xs-5">
+        Help Text
       </div>
     </div>
   </div>
